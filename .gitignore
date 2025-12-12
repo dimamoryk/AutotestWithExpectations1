@@ -2,18 +2,13 @@
 *.iws
 *.iml
 *.ipr
-.idea/
+   .idea/
+
+
 
 # Артефакты сборки Maven
 target/
 
-# Другие временные файлы и директории
-*.log
-logs/
-tmp/
-temp/
-build/
-out/
 
 
 
