@@ -17,7 +17,7 @@
         <selenium.version>4.38.0</selenium.version>
         <webdrivermanager.version>6.3.2</webdrivermanager.version>
         <guice.version>7.0.0</guice.version>
-        <junit.version>6.0.0</junit.version>
+        <junit.version>5.13.4</junit.version>
         <assertj.version>3.27.6</assertj.version>
         <log4j.version>2.25.2</log4j.version>
         <jsoup.version>1.21.1</jsoup.version>
