@@ -23,7 +23,7 @@
         <jsoup.version>1.21.1</jsoup.version>
 
 
-        <base.url>https://otus.ru</base.url>
+        <base.url/>
         <browser.type>chrome</browser.type>
     </properties>
 
