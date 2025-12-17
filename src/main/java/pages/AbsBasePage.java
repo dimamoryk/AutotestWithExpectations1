@@ -20,7 +20,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public abstract class AbsBasePage<T> extends AbsCommon {
 
-    protected String baseurl = System.getProperty("base.url");
+    protected String baseUrl = System.getProperty("base.url");
 
     @FindBy(tagName = ".iDgXbN")
     protected WebElement header;
@@ -79,14 +79,14 @@ public abstract class AbsBasePage<T> extends AbsCommon {
 
     public T open() {
 
-        driver.get(baseurl + getPath());
+        driver.get(baseUrl + getPath());
 
         return (T) this;
     }
 
     public T open(String name, String... data) {
 
-        driver.get(baseurl + getPathWithData(name, data));
+        driver.get(baseUrl + getPathWithData(name, data));
 
         return (T) this;
     }
