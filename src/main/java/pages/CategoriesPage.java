@@ -12,7 +12,7 @@ import java.util.List;
 public class CategoriesPage extends AbsBasePage<CategoriesPage> {
 
 
-    @FindBy(css = ".zzdkm7")
+    @FindBy(css = "zzdkm7")
     protected List<WebElement> courses;
 
     public CategoriesPage(WebDriver driver) {

@@ -16,11 +16,12 @@
 
         <selenium.version>4.38.0</selenium.version>
         <webdrivermanager.version>6.3.2</webdrivermanager.version>
-        <guice.version>7.0.0</guice.version>
+        <guice.version>6.0.0</guice.version>
         <junit.version>5.13.4</junit.version>
         <assertj.version>3.27.6</assertj.version>
-        <log4j.version>2.25.2</log4j.version>
+        <log4j.version>2.24.3</log4j.version>
         <jsoup.version>1.21.1</jsoup.version>
+        <guava.version>33.5.0-jre</guava.version>
 
 
         <base.url/>
@@ -28,17 +29,16 @@
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
             <version>${jsoup.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>${log4j.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.logging.log4j</groupId>-->
+<!--            <artifactId>log4j-core</artifactId>-->
+<!--            <version>${log4j.version}</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -53,6 +53,11 @@
             <groupId>com.google.inject</groupId>
             <artifactId>guice</artifactId>
             <version>${guice.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

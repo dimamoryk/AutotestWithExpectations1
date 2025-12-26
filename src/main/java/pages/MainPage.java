@@ -18,7 +18,7 @@ public class MainPage extends AbsBasePage<MainPage> {
     @Inject
     protected CategoriesPage categoriesPage;
 
-    @FindBy(css = ".sc-1youhxc")
+    @FindBy(css = "sc-1youhxc")
     protected List<WebElement> categories;
 
     public MainPage(WebDriver driver) {
@@ -41,6 +41,7 @@ public class MainPage extends AbsBasePage<MainPage> {
     public WebElement firstCategoryElement(int index) {
         return categories.get(index - 1);
     }
+
     public WebElement findElementByCSS(String cssSelector) {
         return driver.findElement(By.cssSelector(cssSelector));
     }
