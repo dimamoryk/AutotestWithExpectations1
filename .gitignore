@@ -1,12 +1,9 @@
 # IntelliJ IDEA
 *.iws
 *.iml
-*.ipr
-   .idea/
 
+.idea/
 
-
-# Артефакты сборки Maven
 target/
 
 
